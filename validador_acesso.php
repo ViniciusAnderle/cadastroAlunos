@@ -13,6 +13,6 @@ if (isset($_SESSION['usuario']) && is_object($_SESSION['usuario'])) {
 if (!isset($_SESSION['autenticar']) || $_SESSION['autenticar'] != 'SIM') {
     header('Location: http://localhost/cadastroAlunos/index.php?login=erro');
     exit(); 
-    //asadfd
+    
 }
 ?>
