@@ -122,8 +122,6 @@ $alunos = isset($_SESSION['alunos']) ? $_SESSION['alunos'] : [];
                     <div class="row">
                       <div class="col">
                         <a href="editar_aluno.php?id=<?= $alunoKey ?>" class="btn btn-sm btn-info">Editar</a>
-                      </div>
-                      <div class="col">
                         <a href="excluir_aluno.php?id=<?= $alunoKey ?>" class="btn btn-sm btn-danger">Excluir</a>
                       </div>
                     </div>
@@ -131,9 +129,9 @@ $alunos = isset($_SESSION['alunos']) ? $_SESSION['alunos'] : [];
                 </div>
               <?php } ?>
             <?php } ?>
-            <div class="row mt-5">
+            <div class="row mt-5" style="display: flex; justify-content: center;">
               <div class="col-6">
-                <a class="btn btn-lg btn-warning btn-block" href="home.php">Voltar</a>
+                <a class="btn btn-lg btn-warning btn-block"  href="home.php">Voltar</a>
               </div>
             </div>
           </div>
