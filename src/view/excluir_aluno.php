@@ -1,4 +1,6 @@
 <?php
+require_once "../../validador_acesso.php";
+
 session_start();
 //Metodo utilizado para realizar a exclusão do aluno.
 $alunoId = $_GET['id'];

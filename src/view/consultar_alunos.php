@@ -1,5 +1,6 @@
 <?php
 session_start();
+require_once "../../validador_acesso.php";
 
 $alunos = isset($_SESSION['alunos']) ? $_SESSION['alunos'] : [];
 
