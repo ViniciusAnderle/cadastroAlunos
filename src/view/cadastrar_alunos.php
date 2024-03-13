@@ -158,15 +158,15 @@
                   <form method="post" action="registra_alunos.php">
                     <div class="form-group">
                       <label>Nome</label>
-                      <input name="nome" type="text" class="form-control">
+                      <input name="nome" type="text" class="form-control"required>
                     </div>
                     <div class="form-group">
                       <label>Matrícula</label>
-                      <input name="matricula" type="text" class="form-control">
+                      <input name="matricula" type="text" class="form-control"required>
                     </div>
                     <div class="form-group">
                       <label>Curso</label>
-                      <input name="curso" type="text" class="form-control">
+                      <input name="curso" type="text" class="form-control"required>
                     </div>
                     <div class="row mt-5">
                       <div class="col-6">
