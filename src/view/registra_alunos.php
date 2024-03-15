@@ -47,5 +47,5 @@ $_SESSION['alunos'][] = $aluno;
 $aluno = [];
 
 // Exibir um popup de sucesso e redirecionar para a página cadastrar_alunos.php
-echo "<script>alert('Aluno cadastrado com sucesso!'); window.location.href = 'cadastrar_alunos.php';</script>";
+echo "<script>alert('Aluno cadastrado com sucesso!'); window.location.href = 'home.php';</script>";
 exit;
